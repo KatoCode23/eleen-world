@@ -6,24 +6,145 @@ html, body {
 body {
   background-color: white;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .main-content{
   position: relative;
   display: block;
   margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.menu-page{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.phone-button{
+  position: relative;
+  display: block;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: black;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.menu-container{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.list{
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0px;
+  padding: 0;
   width: 100%;
   box-sizing: border-box;
+}
+
+.category{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 10vh;
+  font-size: 1.5rem;
+  color: white;
+  left: 0;
+  text-align: left;
+  padding: 5px;
+}
+
+.collection-menu{
+  position: absolute;
+  display: block;
+  width: 35vh;
+  height: 50vh;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.collection-list{
+  position: absolute;
+  display: block;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.collection-name{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 10vh;
+  font-size: 1rem;
+  color: black;
+  right: 0;
+  text-align: center;
+  padding: 5px;
 }
 
 .logo{
   position: relative;
   display: block;
   margin: 0 auto;
+  width: 90%;
+  height: 70vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 13vh;
+}
+
+.phone-logo{
+  position: relative;
+  display: none;
+  margin: 0 auto;
   width: 100%;
   height: 70vh;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  top: 13vh;
+  transform: rotate(90deg);
+}
+
+
+@media  (min-width: 0px) and
+		(max-width: 414px) {
+
+.phone-logo{
+  display: block;
+}
+
+.logo{
+  display: none;
+}
 }
