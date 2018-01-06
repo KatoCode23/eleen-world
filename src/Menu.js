@@ -1,8 +1,6 @@
 import React from 'react';
 
 
-
-
 export default class Menu extends React.Component {
 constructor(props){
   super(props);
@@ -57,18 +55,18 @@ projects(){
   console.log('you have clicked, PROJECTS!!!');
 }
 
-bio(){
-  this.setState({
-
-  })
-  console.log('you have clicked, BIO!!!');
-}
-
 contact(){
   this.setState({
 
   })
   console.log('you have clicked, CONTACT!!!');
+}
+
+bio(){
+  this.setState({
+
+  })
+  console.log('you have clicked, BIO!!!');
 }
 
 render(){
@@ -103,7 +101,6 @@ render(){
   }else if(this.state.collections === false){
     collections = null;
   }
-
   return(
     <div className="menu-page">
          <div className="phone-button" onClick={this.openMenu}>

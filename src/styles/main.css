@@ -157,13 +157,18 @@ body {
   transform: rotate(90deg);
 }
 
-.collection-content{
-  position: relative;
-  display: block;
-  width: 50vh;
-  height: 50vh;
+.photo-container{
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+margin: 0 auto;
+width: 33%;
+height: 50vh;
+text-align: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
 }
-
 
 @media  (min-width: 0px) and
 		(max-width: 414px) {
