@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './menu.css'
 
 export default class Menu extends React.Component {
 constructor(props){
@@ -92,10 +92,10 @@ render(){
     collections = <div className="collection-menu">
                       <ul className="collection-list">
                           <li className="collection-name">TO BE NAMED</li>
-                          <li className="collection-name">LONELY LADY LOVERS</li>
-                          <li className="collection-name">PARTS</li>
-                          <li className="collection-name">[DE]COMPOSED</li>
-                          <li className="collection-name">DANCING UNDER THE BLACK MOON</li>
+                          <a href="/lonely"><li className="collection-name">LONELY LADY LOVERS</li></a>
+                          <a href="/parts"><li className="collection-name">PARTS</li></a>
+                          <a href="/decomposed"><li className="collection-name">[DE]COMPOSED</li></a>
+                          <a href="/blackmoon"><li className="collection-name">DANCING UNDER THE BLACK MOON</li></a>
                       </ul>
                  </div>
   }else if(this.state.collections === false){
@@ -103,9 +103,9 @@ render(){
   }
   return(
     <div className="menu-page">
-         <div className="phone-button" onClick={this.openMenu}>
-              <i className="fa fa-plus" aria-hidden="true"></i>
-         </div>
+        <div className="phone-menu" onClick={this.openMenu}>
+            <i className="fa fa-plus" aria-hidden="true"></i>
+        </div>
          {phoneMenu}
          {collections}
    </div>
