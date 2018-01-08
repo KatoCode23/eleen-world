@@ -21,17 +21,38 @@ const photos = [
 
 
 export default class Decomposed extends React.Component{
+    constructor(props){
+    super(props);
+    this.state = {
+      currentPic: null
+    }
+    this.testClick = this.testClick.bind(this);
+    }
+
+    testClick(event){
+        this.setState({
+            currentPic: event.target.id
+        })
+        console.log(event.target.id);
+    }
+
     render() {
         const listOfPhotos = photos.map((item, index) => {
             const requiredPic = require(`../pics/${item}.jpg`);
-            console.log(requiredPic);
+            if(index === 6){
+                return <li id={index} className="photo-wide"
+                            key={item.toString()}
+                            style={{backgroundImage: "url(" + requiredPic + ")"}}>
+                        </li>
+            }else{
+
             return <li id={index} className="photo"
                         key={item.toString()}
+                        onClick={this.testClick}
                         style={{backgroundImage: "url(" + requiredPic + ")"}}>
                     </li>
+            }
         });
-
-        console.log(listOfPhotos);
 
 
         return <div className="collection-content">

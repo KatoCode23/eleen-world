@@ -78,7 +78,7 @@ render(){
                    <ul className="list">
                       <li className="category" onClick={this.shop}>SHOP</li>
                       <li className="category" onClick={this.collections}>COLLECTIONS</li>
-                      <li className="category" onClick={this.projects}>PROJECTS</li>
+                      <a href="/projects"><li className="category" onClick={this.projects}>PROJECTS</li></a>
                       <li className="category" onClick={this.contact}>CONTACT</li>
                       <li className="category" onClick={this.bio}>BIO</li>
                     </ul>
