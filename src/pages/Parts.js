@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../components/menu/Menu';
 
 const photos = [
     "200",
@@ -36,6 +37,7 @@ export default class Parts extends React.Component{
 
 
         return <div className="collection-content">
+        <Menu />
             <div className="photo-container">
                 {listOfPhotos}
             </div>

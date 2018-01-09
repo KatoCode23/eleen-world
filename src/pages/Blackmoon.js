@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../components/menu/Menu';
 
 const photos = [
     "1",
@@ -31,6 +32,7 @@ export default class Blackmoon extends React.Component{
 
 
         return <div className="collection-content">
+        <Menu />
             <div className="photo-container">
                 {listOfPhotos}
             </div>

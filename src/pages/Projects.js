@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../components/menu/Menu';
 
 
 export default class Projects extends React.Component{
@@ -8,12 +9,15 @@ export default class Projects extends React.Component{
         return (
 
         <div className="video-content">
+        <Menu />
             <div className="video-container">
                 <video src={requiredVideo2} className="video"
                     controls>
                 </video>
-                <div><a href="http://beautifulsavage.com/fashion/neuf-rever-anomalie" target="blank"><p className="heading">Neuf Rever Anomalie</p></a></div>
-                <div>Fashion Film For Beautiful Savage Magazine<br/>STYLING & COSTUME DESIGN</div>
+                <div><a href="http://beautifulsavage.com/fashion/neuf-rever-anomalie" target="blank">
+                <p className="heading">Neuf Rever Anomalie<br/>
+                <span className="header-credit">Fashion Film For Beautiful Savage Magazine</span></p></a></div>
+                <div>STYLING & COSTUME DESIGN</div>
                 <div className="credit-holder"><a href="http://mutablefilms.com/" target="blank"><p className="credits">directed + cinematography + editing - <span className="name">ERIC SCHNEIDER</span></p></a></div>
                 <div className="credit-holder"><a href="http://www.seijiuehara.com/" target="blank"><p className="credits">creative direction + hair - <span className="name">SEIJI UEHARA</span></p></a></div>
                 <div className="credit-holder"><a href="http://www.sarahfiorello.com/" target="blank"><p className="credits">makeup - <span className="name">SARAH FIORELLO</span></p></a></div>
