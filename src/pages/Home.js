@@ -12,6 +12,7 @@ export default class Home extends React.Component {
                     <div className="phone-logo"
                         style={{ backgroundImage: "url(" + logo + ")" }}>
                     </div>
+                    <span className="copyRight">&copy;2018 eleen halvorsen</span>
                 </div>
 
     }

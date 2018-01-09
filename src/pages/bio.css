@@ -1,0 +1,10 @@
+.bio-content{
+    position: relative;
+    display: block;
+    top: 10%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    border: solid green 5px;
+}

@@ -7,6 +7,7 @@ import Parts from './pages/Parts';
 import Decomposed from './pages/Decomposed';
 import Blackmoon from './pages/Blackmoon';
 import Projects from './pages/Projects';
+import Bio from './pages/Bio';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class App extends React.Component{
@@ -21,9 +22,11 @@ class App extends React.Component{
                         <li className="page-button"><a href="/decomposed">Decomposed</a></li>
                         <li className="page-button"><a href="/blackmoon">Blackmoon</a></li>
                         <li className="page-button"><a href="/projects">Projects</a></li>
+                        <li className="page-button"><a href="/bio">Bio</a></li>
                     </ul>
                     <Route exact path="/" component={Home} />
-                    <Route path="/Projects" component={Projects} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/bio" component={Bio} />
                     <Route path="/lonely" component={Lonely} />
                     <Route path="/parts" component={Parts} />
                     <Route path="/decomposed" component={Decomposed} />

@@ -7,32 +7,32 @@ export default class Projects extends React.Component{
         const requiredVideo2 = require("../videos/2.m4v");
         return (
 
-        <div classNameName="video-content">
-            <div classNameName="video-container">
-                <video src={requiredVideo2} classNameName="video"
+        <div className="video-content">
+            <div className="video-container">
+                <video src={requiredVideo2} className="video"
                     controls>
                 </video>
-                <div><a href="http://beautifulsavage.com/fashion/neuf-rever-anomalie" target="blank">Neuf Rever Anomalie</a></div>
+                <div><a href="http://beautifulsavage.com/fashion/neuf-rever-anomalie" target="blank"><p className="heading">Neuf Rever Anomalie</p></a></div>
                 <div>Fashion Film For Beautiful Savage Magazine<br/>STYLING & COSTUME DESIGN</div>
-                <div><a href="http://mutablefilms.com/" target="blank">directed + cinematography + editing - ERIC SCHNEIDER</a></div>
-                <div><a href="http://www.seijiuehara.com/" target="blank">creative direction + hair - SEIJI UEHARA</a></div>
-                <div><a href="http://www.sarahfiorello.com/" target="blank">makeup - SARAH FIORELLO</a></div>
-                <div><a href="http://www.apmmodels.com/" target="blank">models - SASHA T. and NASTYA S. @ APM MODELS</a></div>
-                <div>assistant camera - CHRIS CRUZ</div>
-                <div>production assistant - TORI MCGRAW</div>
-                <div>assistant editor - TORI MCGRAW</div>
-                <div>post consultant - MITZI LY</div>
-                <div>special thanks - TY PIKE</div>
-                <video src={requiredVideo} classNameName="video"
+                <div className="credit-holder"><a href="http://mutablefilms.com/" target="blank"><p className="credits">directed + cinematography + editing - <span className="name">ERIC SCHNEIDER</span></p></a></div>
+                <div className="credit-holder"><a href="http://www.seijiuehara.com/" target="blank"><p className="credits">creative direction + hair - <span className="name">SEIJI UEHARA</span></p></a></div>
+                <div className="credit-holder"><a href="http://www.sarahfiorello.com/" target="blank"><p className="credits">makeup - <span className="name">SARAH FIORELLO</span></p></a></div>
+                <div className="credit-holder"><a href="http://www.apmmodels.com/" target="blank"><p className="credits">models - <span className="name">SASHA T. and NASTYA S. @ APM MODELS</span></p></a></div>
+                <div className="credit-holder"><p className="credits">assistant camera - CHRIS CRUZ</p></div>
+                <div className="credit-holder"><p className="credits">production assistant - TORI MCGRAW</p></div>
+                <div className="credit-holder"><p className="credits">assistant editor - TORI MCGRAW</p></div>
+                <div className="credit-holder"><p className="credits">post consultant - MITZI LY</p></div>
+                <div className="credit-holder"><p className="credits">special thanks - TY PIKE</p></div>
+                <video src={requiredVideo} className="video"
                     controls>
                 </video>
-                <div><a href="https://vimeo.com/178509864" target="blank">Stvsh-MyTime</a></div>
+                <div><a href="https://vimeo.com/178509864" target="blank"><p className="heading">Stvsh-My Time</p></a></div>
                 <div>CREATIVE DIRECTION & COSTUME DESIGN</div>
-                <div><a href="https://soundcloud.com/stvsh718" target="blank">artist - STVSH</a></div>
-                <div><a href="http://lukaschmiel.com/" target="blank">director + videographer - LUKAS CHMIEL</a></div>
-                <div><a href="http://kiatavernier.com/" target="blank">choreographer + dancer - KIA TAVERNIER</a></div>
-                <div><a href="http://maakhaus.com/" target="blank">producer - MAAK HAUS</a></div>
-                <div><a href="http://www.bagsmith.com/" target="blank">yarn provided by - THE BAGSMITH YARN</a></div>
+                <div className="credit-holder"><a href="https://soundcloud.com/stvsh718" target="blank"><p className="credits">artist - <span className="name"> STVSH</span></p></a></div>
+                <div className="credit-holder"><a href="http://lukaschmiel.com/" target="blank"><p className="credits">director + videographer - <span className="name">LUKAS CHMIEL</span></p></a></div>
+                <div className="credit-holder"><a href="http://kiatavernier.com/" target="blank"><p className="credits">choreographer + dancer - <span className="name">KIA TAVERNIER</span></p></a></div>
+                <div className="credit-holder"><a href="http://maakhaus.com/" target="blank"><p className="credits">producer - <span className="name">MAAK HAUS</span></p></a></div>
+                <div className="credit-holder"><a href="http://www.bagsmith.com/" target="blank"><p className="credits">yarn provided by - <span className="name">THE BAGSMITH YARN</span></p></a></div>
             </div>
         </div>
         );

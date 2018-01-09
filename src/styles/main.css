@@ -42,6 +42,13 @@ li{
     transform: rotate(90deg);
 }
 
+.copyRight{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+
 .home-button{
     position: fixed;
     display: block;
@@ -123,9 +130,9 @@ li{
     position: relative;
     display: block;
     top: 10%;
+    width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    border: solid green 5px;
     text-align: center;
 }
 
@@ -133,23 +140,45 @@ li{
     position: relative;
     display: block;
     top: 0;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
-    border: solid red 2px;
 }
 
 .video{
     position: relative;
     display: inline-block;
     margin: 0 auto;
+    width: 100%;
+    height: 50vh;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    border: solid blue 2px;
+}
+
+.credit-holder{
+
+}
+
+.heading{
+    text-align: left;
+    color: grey;
+    padding: 2px;
+}
+
+.credits{
+    text-align: left;
+    color: black;
+    padding: 2px;
+}
+
+.name{
+    color: grey;
 }
 
 @media  (min-width: 0px) and

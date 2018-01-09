@@ -10,11 +10,7 @@ constructor(props){
   }
   this.openMenu = this.openMenu.bind(this);
   this.closeMenu = this.closeMenu.bind(this);
-  this.shop = this.shop.bind(this);
   this.collections = this.collections.bind(this);
-  this.projects = this.projects.bind(this);
-  this.bio = this.bio.bind(this);
-  this.contact = this.contact.bind(this);
 }
 
 openMenu(event){
@@ -34,39 +30,11 @@ closeMenu(event){
   console.log('You have clicked the closed menu button');
 }
 
-shop(){
-  this.setState({
-
-  })
-  console.log('you have clicked, SHOP!!!');
-}
-
 collections(){
   this.setState({
     collections: !this.state.collections
   })
   console.log('you have clicked, COLLECTIONS!!!');
-}
-
-projects(){
-  this.setState({
-
-  })
-  console.log('you have clicked, PROJECTS!!!');
-}
-
-contact(){
-  this.setState({
-
-  })
-  console.log('you have clicked, CONTACT!!!');
-}
-
-bio(){
-  this.setState({
-
-  })
-  console.log('you have clicked, BIO!!!');
 }
 
 render(){
@@ -76,11 +44,11 @@ render(){
     phoneMenu = <div className="menu-container">
                   <div className="close-menu" onClick={this.closeMenu}><i className="fa fa-times" aria-hidden="true"></i></div>
                    <ul className="list">
-                      <li className="category" onClick={this.shop}>SHOP</li>
+                      <li className="category">SHOP</li>
                       <li className="category" onClick={this.collections}>COLLECTIONS</li>
-                      <a href="/projects"><li className="category" onClick={this.projects}>PROJECTS</li></a>
-                      <li className="category" onClick={this.contact}>CONTACT</li>
-                      <li className="category" onClick={this.bio}>BIO</li>
+                      <a href="/projects"><li className="category">PROJECTS</li></a>
+                      <li className="category">CONTACT</li>
+                      <a href="/bio"><li className="category">BIO</li></a>
                     </ul>
                  </div>
 
