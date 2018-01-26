@@ -17,6 +17,20 @@ li{
     list-style-type: none;
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    text-align: right;
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
 .logo{
     position: relative;
     display: block;
@@ -51,7 +65,7 @@ li{
 
 .home-button{
     position: fixed;
-    display: block;
+    display: none;
     width: 50%;
     top: 0;
     left: 0;
@@ -69,132 +83,75 @@ li{
 .page-button{
     position: relative;
     display: inline-block;
+    margin: 0 auto;
+    padding: 5px 5px 5px 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.collection-button{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    min-width: 210px;
+}
+
+.collection-button .collection-container{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    right: 0;
+    top: 27px;
+}
+
+.collection-container-ul {
+    padding: 0;
+    width: 100%;
+}
+
+.collection-button:hover .collection-container{
+    display: block;
+}
+
+
+.link-button{
+    min-width: 210px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.link-button a:hover{
+    color: grey;
+}
+
+.collection-button a{
+    color: black;
 }
 
 .page-button a{
     color: black;
 }
 
-.collection-content{
-    position: fixed;
-    display: block;
-    top: 10%;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-.photo-container{
-    position: fixed;
-    display: block;
-    top: 15%;
-    height: 61vh;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0 auto;
-    text-align: center;
-    overflow-x: scroll;
-    white-space: nowrap;
-}
-
-.photo{
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    width: 77%;
-    height: 61vh;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.photo-wide{
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    width: 200%;
-    height: 61vh;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.video-content{
-    position: relative;
-    display: block;
-    top: 10%;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.video-container{
-    position: relative;
-    display: block;
-    top: 0;
-    width: 100%;
-    height: 85vh;
-    box-sizing: border-box;
-    margin: 0 auto;
-    text-align: center;
-    overflow-y: scroll;
-}
-
-.video{
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-    height: 50vh;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.credit-holder{
-
-}
-
-.heading{
-    text-align: left;
-    color: grey;
-    padding: 2px;
-}
-
-.header-credit{
-    color: black;
-}
-
-.credits{
-    text-align: left;
-    color: black;
-    padding: 2px;
-}
-
-.name{
-    color: grey;
-}
 
 @media  (min-width: 0px) and
 		(max-width: 414px) {
 
+.header{
+    display: none;
+}
+
+.home-button{
+    display: block;
+}
+
 .phone-logo{
-  display: block;
+    display: block;
 }
 
 .logo{
-  display: none;
+    display: none;
 }
 
 .page-button{

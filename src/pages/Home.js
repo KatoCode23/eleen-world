@@ -5,15 +5,15 @@ export default class Home extends React.Component {
     render() {
         const logo=require('../pics/logo.jpg');
         return  <div>
-                    <Menu />
-                    <div className="logo"
-                        style={{ backgroundImage: "url(" + logo + ")" }}>
-                    </div>
-                    <div className="phone-logo"
-                        style={{ backgroundImage: "url(" + logo + ")" }}>
-                    </div>
-                    <span className="copyRight">&copy;2018 eleen halvorsen</span>
-                </div>
+            <Menu />
+            <div className="logo"
+                style={{ backgroundImage: 'url(' + logo + ')' }}>
+            </div>
+            <div className="phone-logo"
+                style={{ backgroundImage: 'url(' + logo + ')' }}>
+            </div>
+            <span className="copyRight">&copy;2018 eleen halvorsen</span>
+        </div>;
 
     }
 }

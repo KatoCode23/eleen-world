@@ -1,0 +1,56 @@
+.contact-content{
+    position: relative;
+    display: block;
+    top: 10%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contact-container{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 85vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.inquiry-holder{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 11vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.inquiry{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: .9rem;
+    top: 23%;
+}
+
+.email{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.email a{
+    color: black;
+    top: 0;
+}

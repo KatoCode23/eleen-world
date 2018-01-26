@@ -1,0 +1,56 @@
+.video-content{
+    position: relative;
+    display: block;
+    top: 10%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.video-container{
+    position: relative;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 85vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.video{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading{
+    text-align: left;
+    color: grey;
+    padding: 2px;
+}
+
+.header-credit{
+    color: black;
+}
+
+.credits{
+    text-align: left;
+    color: black;
+    padding: 2px;
+}
+
+.name{
+    color: grey;
+}
+
