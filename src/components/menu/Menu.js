@@ -59,7 +59,7 @@ export default class Menu extends React.Component {
         if(this.state.collections === true){
             collections = <div className="collection-menu">
                 <ul className="collection-list">
-                    <li className="collection-name">TO BE NAMED</li>
+                    <a href="/slide"><li className="collection-name">SLIDE SHOW</li></a>
                     <a href="/lonely"><li className="collection-name">LONELY LADY LOVERS</li></a>
                     <a href="/parts"><li className="collection-name">PARTS</li></a>
                     <a href="/decomposed"><li className="collection-name">[DE]COMPOSED</li></a>

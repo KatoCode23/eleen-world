@@ -47,6 +47,9 @@ export default class Bio extends React.Component{
                         eros, vel ornare tellus lobortis sed.
                         </p>
                     </div>
+                    <div className="bio-photo">
+                        
+                    </div>
                 </div>
             </div>
         );

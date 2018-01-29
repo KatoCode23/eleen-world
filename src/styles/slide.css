@@ -1,0 +1,58 @@
+.slide-content{
+    position: fixed;
+    display: block;
+    top: 10%;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px;
+  }
+  
+  .prev{
+    left: 0;
+  }
+  
+  .next{
+    right: 0;
+  }
+  
+  .fa-window-close-o, .fa-caret-square-o-right, .fa-caret-square-o-left{
+    font-size: 1.5rem;
+  }
+  
+  .image-container{
+    position: relative;
+    display: inline-flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: solid black 2px;
+  }
+
+  input{
+    background-color: black;
+    color: red;
+    width: 20vh;
+    height: 50vh;
+    top: 10px;
+    position: absolute;
+    display: block;
+  }

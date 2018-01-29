@@ -12,7 +12,7 @@
     position: relative;
     display: block;
     top: 0;
-    width: 100%;
+    width: 85%;
     height: 85vh;
     box-sizing: border-box;
     margin: 0 auto;
@@ -20,12 +20,24 @@
     overflow-y: scroll;
 }
 
+.video-1{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
 .video{
     position: relative;
     display: inline-block;
-    margin: 0 auto;
+    margin-top: 50px;
     width: 100%;
-    height: 50vh;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
@@ -34,10 +46,26 @@
     background-size: contain;
 }
 
+.eleen-credit{
+      /* font-family: 'Julius Sans One', sans-serif;*/
+   font-family: 'Open Sans', sans-serif;
+   text-align: left;
+   margin-top: 20px;
+}
+
+.noLink{
+      /* font-family: 'Julius Sans One', sans-serif;*/
+   font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+}
+
 .heading{
     text-align: left;
-    color: grey;
     padding: 2px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: .9rem;
+
 }
 
 .header-credit{
@@ -47,10 +75,37 @@
 .credits{
     text-align: left;
     color: black;
-    padding: 2px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
 }
 
 .name{
-    color: grey;
+      /* font-family: 'Julius Sans One', sans-serif;*/
+   font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
 }
 
+.name:hover{
+    font-size: .9rem;
+}
+
+@media  (min-width: 0px) and
+		(max-width: 414px) {
+
+.video{
+    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
+}
+
+.video-1{
+    margin: 0 auto;
+    width: 100%;
+    height: 50vh;    
+}
+
+.video-container{
+    width: 100%;
+}
+}

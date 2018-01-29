@@ -10,37 +10,46 @@ import Blackmoon from './pages/Blackmoon';
 import Projects from './pages/Projects';
 import Bio from './pages/Bio';
 import Contact from './pages/Contact';
+import Slide from './pages/Slide.js';
 
 class App extends React.Component {
     render() {
+        const logo=require('./pics/logo.jpg');
         return (<Router>
             <div className="main-content">
-                <span className="home-button">
-                    <a href="/">
-                        <i className="fa fa-home" aria-hidden="true"></i>
-                    </a>
-                </span>
+                <a href="/">
+                    <span className="home-button"
+                        style={{ backgroundImage: 'url(' + logo + ')' }}>
+                    </span>
+                </a>
                 <header className="header">
+                    <a href="/">
+                        <span className="desktop-home-button"
+                            style={{ backgroundImage: 'url(' + logo + ')' }}>
+                        </span>
+                    </a>
                     <ul>
-                        <li className="collection-button">Collection
+                        <li className="collection-button">COLLECTIONS
                         <div className="collection-container">
                             <ul className="collection-container-ul">
-                                <li className="link-button"><a href="/lonely">Lonely Lady Lovers</a></li>
-                                <li className="link-button"><a href="/parts">Parts</a></li>
-                                <li className="link-button"><a href="/decomposed">[De]composed</a></li>
-                                <li className="link-button"><a href="/blackmoon">Dancing Under The Blackmoon</a></li>
+                                <li className="link-button"><a href="/slide">SLIDE SHOW</a></li>
+                                <li className="link-button"><a href="/lonely">LONELY LADY LOVERS</a></li>
+                                <li className="link-button"><a href="/parts">PARTS</a></li>
+                                <li className="link-button"><a href="/decomposed">[DE]COMPOSED</a></li>
+                                <li className="link-button"><a href="/blackmoon">DANCING UNDER THE BLACKMOON</a></li>
                             </ul>
                         </div>
                         </li>
-                        <li className="page-button"><a href="/projects">Projects</a></li>
-                        <li className="page-button"><a href="/bio">Bio</a></li>
-                        <li className="page-button"><a href="/contact">Contact</a></li>
+                        <li className="page-button"><a href="/projects">PROJECTS</a></li>
+                        <li className="page-button"><a href="/bio">BIO</a></li>
+                        <li className="page-button"><a href="/contact">CONTACT</a></li>
                     </ul>
                 </header>
                 <Route exact path="/" component={Home} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/bio" component={Bio} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/slide" component={Slide} />
                 <Route path="/lonely" component={Lonely} />
                 <Route path="/parts" component={Parts} />
                 <Route path="/decomposed" component={Decomposed} />
