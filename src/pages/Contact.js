@@ -26,6 +26,7 @@ export default class Contact extends React.Component{
                         <div className="email"><a href="mailTo:Atelier@eleenhalvorsen.com?Subject=Eleen%20Halvorsen%20Commissioned%20Work%20Inquiry">ATELIER@eleenhalvorsen.com</a></div>
                     </div>
                 </div>
+                <span className="copyRight">&copy;2018 eleen halvorsen</span>
             </div>
         );
 

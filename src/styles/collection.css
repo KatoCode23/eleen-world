@@ -8,10 +8,17 @@
     box-sizing: border-box;
 }
 
+.copyRight{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+
 .photo-container{
     position: fixed;
     display: block;
-    top: 15%;
+    top: 20%;
     height: 61vh;
     width: 100%;
     box-sizing: border-box;
@@ -25,7 +32,7 @@
     position: relative;
     display: inline-block;
     margin: 10px;
-    width: 33%;
+    width: 28%;
     height: 61vh;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -58,7 +65,7 @@
 
 .photo{
     margin: 10px;
-    width: 77%;
+    width: 81%;
     height: 61vh;
 }
 }

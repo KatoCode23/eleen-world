@@ -24,6 +24,7 @@ export default class Slide extends React.Component{
         };
         this.clickNext = this.clickNext.bind(this);
         this.clickPrevious = this.clickPrevious.bind(this);
+        this.onKeyPress = this.onKeyPress.bind(this);
     }
     
     clickNext(){
@@ -39,7 +40,23 @@ export default class Slide extends React.Component{
         });
     
     }
-    //Sina Hello...
+
+    onKeyPress(event) {
+        if (event.code === 'ArrowRight') {
+                    this.clickNext();
+        } else if (event.code === 'ArrowLeft') {
+                    this.clickPrevious();
+        }
+    }
+
+    componentDidMount() {
+        document.addEventListener("keyup", this.onKeyPress, false);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener("keyup", this.onKeyPress, false);
+    }
+//Sina Hello...
     //As you can see at the bottoom the most basic input onKeyPress is working
     //What I want to do is click next in the slideshow once you press the right or left arrow
     //Of all the examples online I hae only been able to get this one working at all
@@ -58,10 +75,6 @@ export default class Slide extends React.Component{
             prevbutton = <span className='arrow prev' onClick={this.clickPrevious}>
                 <i className='fa fa-caret-square-o-left' aria-hidden='true'></i></span>;
         }
-
-        function myFunction() {
-            console.log('You pressed a key inside the input field');
-        }
         return (
             <div className='slide-content'>
                 <Menu />
@@ -69,8 +82,7 @@ export default class Slide extends React.Component{
                     style={{ backgroundImage: 'url(' + requiredPic + ')' }}>
                 </div>; 
                 {nextbutton}
-                {prevbutton}
-                <input type="text" onKeyDown={myFunction} />     
+                {prevbutton}     
             </div>
         );
     }

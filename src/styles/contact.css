@@ -1,11 +1,18 @@
 .contact-content{
     position: relative;
     display: block;
-    top: 25%;
+    top: 130px;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
+}
+
+.copyRight{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
 }
 
 .contact-container{
@@ -16,6 +23,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Lekton', sans-serif;
 }
 
 .inquiry-holder{
@@ -53,4 +61,8 @@
 .email a{
     color: black;
     top: 0;
+}
+
+.email a:hover{
+    font-size: 1.1rem;
 }

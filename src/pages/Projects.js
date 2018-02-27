@@ -39,6 +39,7 @@ export default class Projects extends React.Component{
                     <div className="credit-holder"><p className="credits">post consultant - <span className="noLink"> MITZI LY</span></p></div>
                     <div className="credit-holder"><p className="credits">special thanks - <span className="noLink">TY PIKE</span></p></div>
                 </div>
+                <span className="copyRight">&copy;2018 eleen halvorsen</span>
             </div>
         );
 

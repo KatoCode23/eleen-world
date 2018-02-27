@@ -4,6 +4,7 @@ import Menu from '../components/menu/Menu';
 
 export default class Bio extends React.Component{
     render() {
+        const bio=require('../pics/bio-pic.jpg');
         return (
 
             <div className="bio-content">
@@ -11,46 +12,32 @@ export default class Bio extends React.Component{
                 <div className="bio-container">
                     <div className="bio">
                         <p className="bio-text">
-                            <strong>Eleen Halvorsen </strong>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Praesent pulvinar est nunc, id blandit neque vestibulum sit amet.
-                        Nulla facilisi. Etiam convallis sem id neque efficitur,
-                        nec tincidunt justo porttitor. Phasellus luctus at urna non congue.
-                        Vestibulum non justo eu sem malesuada feugiat.
-                        Nunc consequat neque sed iaculis tempor. In sed accumsan dolor.
-                        Donec mollis ipsum vel feugiat fermentum. Donec nec luctus tellus.
-                        Nulla viverra, nulla ut posuere fermentum, risus urna suscipit magn a,
-                        at vulputate est libero nec diam. Phasellus faucibus laoreet massa,
-                        sed tempus augue fringilla ac. Donec ligula eros, lobortis at mi sit amet,
-                        convallis molestie orci. Donec ac aliquam risus, ut pellentesque metus.
-                        Mauris id elit interdum, dictum nulla non, pulvinar ipsum.
+                        <strong>ELEEN HALVORSEN </strong>
+                        Born and raised in Norway, Eleen moved to New York to attend Parsons
+                        The New School for Design, from where she graduated in 2012. In April 2013 she 
+                        launched her namesake label with the conceptual capsule collection 
+                        Dancing Under The Black Moon.
                         </p>
                         <p className="bio-text">
-                        Duis vel nulla id lectus convallis viverra eget ac turpis.
-                        Maecenas rutrum, massa et ornare consequat, lacus urna ultricies justo,
-                        at luctus turpis felis consectetur justo. Fusce tempus lobortis mauris
-                        vitae scelerisque. Praesent dolor diam, luctus ac varius et,
-                        accumsan eget nisl. Aenean quis arcu sapien. Donec venenatis
-                        augue a tortor vulputate molestie. Morbi commodo ut lacus vitae egestas.
-                        Fusce ac gravida diam. Nulla sit amet fringilla enim. In malesuada,
-                        est convallis  tempor iaculis, lorem nibh mattis sem, ac iaculis
-                        ligula quam at purus. Aliquam sit amet fermentum libero. Nulla facilisi.
-                        Suspendisse lectus risus, tincidunt non tristique ac, elementum vitae ex.
+                        Upon graduation ELEEN was among the selected graduates to show at Parsons'Benefit Exhibition
+                        at The Chelsea Piers. ELEEN was also one of the finalists in the annual international 
+                        Arts of Fashion Competition 2012, hosted by The Arts of Fashion Foundation in San Francisco. 
+                        Since her launch Eleen Halvorsen has achieved editorial and written coverage from top 
+                        publications including: Interview, Numero Tokyo, SCHON, StyleZeitgeist, 
+                        Bullett Magazine Huffington Post and Refinery29, among others.
                         </p>
                         <p className="bio-text">
-                        Ut eget risus nec arcu sodales fermentum sed et purus.
-                        Nam libero magna, blandit sed augue et, fringilla pulvinar lacus.
-                        Duis vestibulum elit et tempus rutrum. Nam imperdiet malesuada vehicula.
-                        Vestibulum accumsan cursus pellentesque. In ornare a felis vitae aliquam.
-                        Donec eget nisi erat. Sed sodales semper ipsum, id vehicula dolor vehicula id.
-                        Donec tincidunt lacus eros. Duis ut euismod nisl. Nunc scelerisque elementum
-                        eros, vel ornare tellus lobortis sed.
+                        <strong>ELEEN HALVORSEN</strong> has a conceptual approach to design and by experimenting with unconventional 
+                        patternmaking, construction and materials she is constantly seeking interesting new juxtapositions. 
+                        The result of this constant search for contrast and novelty, together with her distinct aesthetic, 
+                        is essential in positioning Eleen Halvorsen as a dark minimalistic, yet eccentric line.
                         </p>
                     </div>
-                    <div className="bio-photo">
-                        
+                    <div className="bio-photo"
+                        style={{ backgroundImage: 'url(' + bio + ')' }}>
                     </div>
                 </div>
+                <span className="copyRight">&copy;2018 eleen halvorsen</span>
             </div>
         );
 

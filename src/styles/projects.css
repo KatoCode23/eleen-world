@@ -1,11 +1,18 @@
 .video-content{
     position: relative;
     display: block;
-    top: 10%;
+    top: 70px;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
+}
+
+.copyRight{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
 }
 
 .video-container{
@@ -48,21 +55,21 @@
 
 .eleen-credit{
       /* font-family: 'Julius Sans One', sans-serif;*/
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Lekton', sans-serif;
    text-align: left;
    margin-top: 20px;
 }
 
 .noLink{
       /* font-family: 'Julius Sans One', sans-serif;*/
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Lekton', sans-serif;
     font-size: .8rem;
 }
 
 .heading{
     text-align: left;
     padding: 2px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lekton', sans-serif;
     color: black;
     font-size: .9rem;
 
@@ -76,13 +83,13 @@
     text-align: left;
     color: black;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lekton', sans-serif;
     font-size: .8rem;
 }
 
 .name{
       /* font-family: 'Julius Sans One', sans-serif;*/
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Lekton', sans-serif;
     font-size: .8rem;
 }
 

@@ -61,6 +61,7 @@ export default class Decomposed extends React.Component{
             <div className="photo-container">
                 {listOfPhotos}
             </div>
+            <span className="copyRight">&copy;2018 eleen halvorsen</span>
         </div>;
     }
 }
