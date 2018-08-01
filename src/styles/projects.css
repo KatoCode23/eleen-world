@@ -19,19 +19,18 @@
     position: relative;
     display: block;
     top: 0;
-    width: 85%;
-    height: 85vh;
+    width: 90%;
+    height: 75vh;
     box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
-    overflow-y: scroll;
 }
 
 .video-1{
     position: relative;
     display: inline-block;
     margin-top: 25px;
-    width: 100%;
+    width: 80%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
@@ -44,7 +43,7 @@
     position: relative;
     display: inline-block;
     margin-top: 50px;
-    width: 100%;
+    width: 80%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
@@ -53,17 +52,56 @@
     background-size: contain;
 }
 
+.eleen-title{
+    font-family: 'Lekton', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 10vh;
+    width: 90%;
+}
+
+.project-container{
+    position: relative;
+    display: block;
+    top: 10vh;
+    width: 90%;
+    height: 70vh;
+    box-sizing: border-box;
+    margin: 10px auto;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
 .eleen-credit{
       /* font-family: 'Julius Sans One', sans-serif;*/
    font-family: 'Lekton', sans-serif;
    text-align: left;
-   margin-top: 20px;
+   margin-top: 75px;
+   width: 90%;
+}
+
+.eleen-credit2{
+    /* font-family: 'Julius Sans One', sans-serif;*/
+ font-family: 'Lekton', sans-serif;
+ text-align: left;
+ margin-top: 75px;
+ margin-left: 30px;
+ width: 90%;
+
 }
 
 .noLink{
       /* font-family: 'Julius Sans One', sans-serif;*/
    font-family: 'Lekton', sans-serif;
     font-size: .8rem;
+    width: 90%;
 }
 
 .heading{
@@ -72,7 +110,17 @@
     font-family: 'Lekton', sans-serif;
     color: black;
     font-size: .9rem;
+    width: 90%;
+}
 
+.heading2{
+    text-align: left;
+    padding: 2px;
+    font-family: 'Lekton', sans-serif;
+    color: black;
+    font-size: .9rem;
+    width: 90%;
+    margin-left: 30px;
 }
 
 .header-credit{
@@ -85,6 +133,17 @@
     padding: 0;
     font-family: 'Lekton', sans-serif;
     font-size: .8rem;
+    width: 90%;
+}
+
+.credits2{
+    text-align: left;
+    color: black;
+    padding: 0;
+    font-family: 'Lekton', sans-serif;
+    font-size: .8rem;
+    width: 90%;
+    margin-left: 30px;
 }
 
 .name{
@@ -113,6 +172,13 @@
 }
 
 .video-container{
-    width: 100%;
+    width: 90%;
 }
+.project-container{
+    height: 40vh;
+    top: 13vh;
+}
+.eleen-credit{
+ margin-top: 30px;
+}   
 }

@@ -67,13 +67,13 @@ export default class Slide extends React.Component{
         let nextbutton = null;
         if(this.state.currentPic < images.length -1){
             nextbutton = <span className='arrow next' onClick={this.clickNext}>
-                <i className='fa fa-caret-square-o-right' aria-hidden='true'></i></span>;
+                <i className='fas fa-angle-right' aria-hidden='true'></i></span>;
         }
 
         let prevbutton = null;
         if(this.state.currentPic > 0){
             prevbutton = <span className='arrow prev' onClick={this.clickPrevious}>
-                <i className='fa fa-caret-square-o-left' aria-hidden='true'></i></span>;
+                <i className='fas fa-angle-left' aria-hidden='true'></i></span>;
         }
         return (
             <div className='slide-content'>

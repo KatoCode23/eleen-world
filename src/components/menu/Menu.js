@@ -42,7 +42,7 @@ export default class Menu extends React.Component {
         let collections = null;
         if(this.state.phoneMenu === true){
             phoneMenu = <div className="menu-container">
-                <div className="close-menu" onClick={this.closeMenu}><i className="fa fa-times" aria-hidden="true"></i></div>
+                <div className="close-menu" onClick={this.closeMenu}><i className="fas fa-times" aria-hidden="true"></i></div>
                 <ul className="list">
                     <a href="http://shop.eleenhalvorsen.com/" target="_blank"><li className="category">SHOP</li></a>
                     <li className="category" onClick={this.collections}>COLLECTIONS</li>
@@ -59,6 +59,7 @@ export default class Menu extends React.Component {
         if(this.state.collections === true){
             collections = <div className="collection-menu">
                 <ul className="collection-list">
+                    <a href="/entropy"><li className="collection-name">ENTROPY</li></a>
                     <a href="/lonely"><li className="collection-name">LONELY LADY LOVERS</li></a>
                     <a href="/parts"><li className="collection-name">PARTS</li></a>
                     <a href="/decomposed"><li className="collection-name">[DE]COMPOSED</li></a>
@@ -71,7 +72,7 @@ export default class Menu extends React.Component {
         return(
             <div className="menu-page">
                 <div className="phone-menu" onClick={this.openMenu}>
-                    <i className="fa fa-plus" aria-hidden="true"></i>
+                    <i className="fas fa-plus" aria-hidden="true"></i>
                 </div>
                 {phoneMenu}
                 {collections}

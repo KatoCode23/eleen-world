@@ -42,6 +42,20 @@
     background-size: contain;
 }
 
+.new-photo{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 28%;
+    height: 61vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .photo-wide{
     position: relative;
     display: inline-block;
@@ -67,5 +81,10 @@
     margin: 10px;
     width: 81%;
     height: 61vh;
+}
+.new-photo{
+    margin: 10px;
+    width: 81%;
+    height: 45vh;
 }
 }

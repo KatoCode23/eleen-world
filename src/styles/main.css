@@ -86,6 +86,18 @@ li{
    font-size: .9rem;
    font-weight: bolder;
 }
+.shop-button{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px 5px 5px 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+      /* font-family: 'Julius Sans One', sans-serif;*/
+   font-family: 'Open Sans', sans-serif;
+   font-size: .9rem;
+   font-weight: bolder;  
+}
 
 .collection-button{
     position: relative;
@@ -135,6 +147,9 @@ li{
 .page-button a{
     color: black;
 }
+.shop-button a{
+    color: black;
+}
 
 .link-button a:hover{
     font-size: .9rem;
@@ -160,12 +175,24 @@ li{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 48px 100px 25px 100px;
+    margin: 0 auto;
   }
 
+  .home-collection-phone{
+    position: relative;
+    display: none;
+    padding: 0;
+    width: 90%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+  }
 
 @media  (min-width: 0px) and
-		(max-width: 414px) {
+		(max-width: 785px) {
 
 .header{
     display: none;
@@ -182,9 +209,14 @@ li{
 .page-button{
     display: none;
 }
+
+.shop-button{
+    display: none;
+}
 .home-collection{
-    width: 70%;
-    height: 60vh;
-    margin: 48px 100px -50px 100px;
+    display: none;
+}
+.home-collection-phone{
+    display: block;
 }
 }

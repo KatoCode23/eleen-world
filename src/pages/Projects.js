@@ -5,12 +5,56 @@ import '../styles/projects.css';
 
 export default class Projects extends React.Component{
     render() {
+        const requiredPhoto = require("../videos/1.jpg");
+        const requiredPhoto1 = require("../videos/2.jpg");
+        const requiredPhoto2 = require("../videos/3.jpg");
+        const requiredPhoto3 = require("../videos/4.jpg");
+        const requiredPhoto4 = require("../videos/5.jpg");
+        const requiredPhoto5 = require("../videos/6.jpg");
+        const requiredPhoto6 = require("../videos/7.jpg");
+        const requiredPhoto7 = require("../videos/8.jpg");
+        const requiredPhoto8 = require("../videos/9.jpg");
         const requiredVideo = require("../videos/1.m4v");
         const requiredVideo2 = require("../videos/2.m4v");
         return (
 
             <div className="video-content">
                 <Menu />
+                <div className="eleen-title">LA LLORANA</div>
+                <div className="project-container" 
+                        style={{backgroundImage: 'url(' + requiredPhoto + ')'}}>
+                </div>
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto1 + ')'}}>
+                </div>
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto2 + ')'}}>
+                </div> 
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto3 + ')'}}>
+                </div>
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto4 + ')'}}>
+                </div>
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto5 + ')'}}>
+                </div>
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto6 + ')'}}>
+                </div>
+                <div className="project-container"
+                    style={{backgroundImage: 'url(' + requiredPhoto7 + ')'}}>
+                </div>
+                <div className="project-container"
+                        style={{backgroundImage: 'url(' + requiredPhoto8 + ')'}}>
+                </div>        
+                    <div className="eleen-credit2">STYLING & COSTUME DESIGN</div>
+                    <div>
+                    <a href="http://www.maakhaus.com/" target="blank"><p className="heading2">LA LLORANA<br />Fashion Story for Maakhaus.com</p></a></div>
+                    <div><p className="credits2">photography - <span className="noLink">BEATA KANTER</span></p></div>
+                    <div><p className="credits2">makeup + hair - <span className="noLink">MARIKA AOKI</span></p></div>
+                    <div><p className="credits2">model - <span className="noLink">BERKELEY DANYSH @ NEW YORK MODELS</span></p></div>
+                
                 <div className="video-container">
                     <video src={requiredVideo} className="video-1"
                         controls>
