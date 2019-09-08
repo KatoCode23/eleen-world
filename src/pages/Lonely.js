@@ -80,7 +80,7 @@ export default class Lonely extends React.Component{
             <div className='photo-container'>
                 {listOfPhotos}
             </div>
-            <span className="copyRight">&copy;2018 eleen halvorsen</span>
+            <span className="copyRight">&copy;2019 eleen halvorsen</span>
         </div>;
     }
 }

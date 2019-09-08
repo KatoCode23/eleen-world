@@ -13,7 +13,7 @@ export default class Bio extends React.Component{
                     <div className="bio">
                         <p className="bio-text">
                         <strong>ELEEN HALVORSEN </strong>
-                        Born and raised in Norway, Eleen moved to New York to attend Parsons
+                        Born and raised in Norway moved to New York to attend Parsons
                         The New School for Design, from where she graduated in 2012. In April 2013 she 
                         launched her namesake label with the conceptual capsule collection 
                         Dancing Under The Black Moon.
@@ -37,7 +37,7 @@ export default class Bio extends React.Component{
                         style={{ backgroundImage: 'url(' + bio + ')' }}>
                     </div>
                 </div>
-                <span className="copyRight">&copy;2018 eleen halvorsen</span>
+                <span className="copyRight">&copy;2019 eleen halvorsen</span>
             </div>
         );
 

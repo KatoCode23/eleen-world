@@ -18,7 +18,7 @@ export default class Home extends React.Component {
                             style={{ backgroundImage: 'url(' + backgroundPhone + ')' }}><a href="/entropy"></a>
                     </div>
                 </a>
-            <span className="copyRight">&copy;2018 eleen halvorsen</span>
+            <span className="copyRight">&copy;2019 eleen halvorsen</span>
         </div>;
 
     }

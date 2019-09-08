@@ -46,7 +46,6 @@ export default class Menu extends React.Component {
                 <ul className="list">
                     <a href="http://shop.eleenhalvorsen.com/" target="_blank"><li className="category">SHOP</li></a>
                     <li className="category" onClick={this.collections}>COLLECTIONS</li>
-                    <a href="/projects"><li className="category">PROJECTS</li></a>
                     <a href="/contact"><li className="category">CONTACT</li></a>
                     <a href="/bio"><li className="category">BIO</li></a>
                 </ul>
@@ -61,7 +60,6 @@ export default class Menu extends React.Component {
                 <ul className="collection-list">
                     <a href="/entropy"><li className="collection-name">ENTROPY</li></a>
                     <a href="/lonely"><li className="collection-name">LONELY LADY LOVERS</li></a>
-                    <a href="/parts"><li className="collection-name">PARTS</li></a>
                     <a href="/decomposed"><li className="collection-name">[DE]COMPOSED</li></a>
                     <a href="/blackmoon"><li className="collection-name">DANCING UNDER THE BLACK MOON</li></a>
                 </ul>
