@@ -1,0 +1,62 @@
+.main_image-content{
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+}
+
+.image-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.copyRight{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.image-container{
+    position: relative;
+    width: 100%;
+}
+
+.new-image{
+    display: inline-block;
+    width: 50%;
+    height: 59vh;
+    margin-bottom: 18px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.description-title{
+    font-style: italic;
+    font-size: .7rem;
+}
+
+@media  (min-width: 0px) and
+		(max-width: 715px) {
+
+.main_image-content{
+    width: 400px;
+}            
+.new-image{
+    height: 30vh;
+    margin-bottom: 10px;
+}
+.image-content{
+    overflow-x: hidden;
+}
+}

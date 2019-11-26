@@ -4,37 +4,46 @@ import Menu from '../components/menu/Menu';
 
 export default class Bio extends React.Component{
     render() {
-        const bio=require('../pics/bio-pic.jpg');
+        const bio=require('../pics/EH-bio.jpg');
         return (
 
             <div className="bio-content">
                 <Menu />
-                <div className="bio-container">
-                    <div className="bio">
-                        <p className="bio-text">
-                        <strong>ELEEN HALVORSEN </strong>
-                        Born and raised in Norway moved to New York to attend Parsons
-                        The New School for Design, from where she graduated in 2012. In April 2013 she 
-                        launched her namesake label with the conceptual capsule collection 
-                        Dancing Under The Black Moon.
-                        </p>
-                        <p className="bio-text">
-                        Upon graduation ELEEN was among the selected graduates to show at Parsons'Benefit Exhibition
-                        at The Chelsea Piers. ELEEN was also one of the finalists in the annual international 
-                        Arts of Fashion Competition 2012, hosted by The Arts of Fashion Foundation in San Francisco. 
-                        Since her launch Eleen Halvorsen has achieved editorial and written coverage from top 
-                        publications including: Interview, Numero Tokyo, SCHON, StyleZeitgeist, 
-                        Bullett Magazine Huffington Post and Refinery29, among others.
-                        </p>
-                        <p className="bio-text">
-                        <strong>ELEEN HALVORSEN</strong> has a conceptual approach to design and by experimenting with unconventional 
-                        patternmaking, construction and materials she is constantly seeking interesting new juxtapositions. 
-                        The result of this constant search for contrast and novelty, together with her distinct aesthetic, 
-                        is essential in positioning Eleen Halvorsen as a dark minimalistic, yet eccentric line.
-                        </p>
-                    </div>
+                <div className="bio_photo-container">
                     <div className="bio-photo"
                         style={{ backgroundImage: 'url(' + bio + ')' }}>
+                    </div>
+                </div>
+                <div className="bio_text-container">     
+                    <div className="bio">
+                        <p className="bio-text">
+                        <span className="font-weight">ELEEN HALVORSEN </span>
+                         is a New York based Norwegian conceptual artist, 
+                         designer and curator working across different mediums,
+                         fusing garment making, leather work, objects and 
+                         sculpture - wearable as well as pure “object of desire”. 
+                         Her designs often deals with themes surrounding 
+                         the abstracted body and textures, fusing traditional 
+                         garment construction with unconventional patternmaking, 
+                         experimental fabric manipulations and unique silhouettes.    
+                        </p>
+                        <p className="bio-text">
+                         Born and and raised in Norway, Eleen Halvorsen moved to 
+                         New York to attend Parsons The New School for Design,
+                         from where she graduated in 2012. In April 2013 she 
+                         launched her first conceptual capsule collection 
+                         - Dancing Under The Black Moon. Since the inception 
+                         of her namesake brand, Eleen Halvorsen has been in 
+                         charge of every step of construction from concept 
+                         development through sketching, draping and patternmaking 
+                         to constructing the final sample, creating a language truly her own. 
+                        </p>
+                        <p className="bio-text">
+                         Since her launch Eleen Halvorsen has achieved editorial and 
+                         written coverage from top publications including: Interview,
+                         Numero Tokyo, SCHON, StyleZeitgeist, Bullett Magazine Huffington
+                         Post and Refinery29, among others.
+                        </p>
                     </div>
                 </div>
                 <span className="copyRight">&copy;2019 eleen halvorsen</span>

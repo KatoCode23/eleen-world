@@ -72,19 +72,35 @@
 
 @media  (min-width: 0px) and
 		(max-width: 414px) {
+
 .photo-wide{
-    width: 200%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    width: 100%;
     height: 61vh;
 }
 
 .photo{
-    margin: 10px;
-    width: 81%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
     height: 61vh;
 }
 .new-photo{
-    margin: 10px;
-    width: 81%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
     height: 45vh;
+}
+.photo-container{
+    overflow-y: scroll;
+}
+.collection-content{
+    margin: 0;
+    padding: 0;
 }
 }

@@ -9,6 +9,7 @@ import Blackmoon from './pages/Blackmoon';
 import Entropy from './pages/Entropy';
 import Tangtare from './pages/Tangtare';
 import Bio from './pages/Bio';
+import Process from './pages/Process';     
 import Contact from './pages/Contact';
 
 class App extends React.Component {
@@ -31,7 +32,7 @@ class App extends React.Component {
                         <li className="collection-button">COLLECTIONS
                         <div className="collection-container">
                             <ul className="collection-container-ul">
-                                <li className="link-button"><a href="/tangtare">TANGTARE</a></li>
+                                <li className="link-button"><a href="/tangtare">TANG/TARE</a></li>
                                 <li className="link-button"><a href="/entropy">ENTROPY</a></li>
                                 <li className="link-button"><a href="/lonely">LONELY LADY LOVERS</a></li>
                                 <li className="link-button"><a href="/decomposed">[DE]COMPOSED</a></li>
@@ -39,13 +40,21 @@ class App extends React.Component {
                             </ul>
                         </div>
                         </li>
-                        <li className="page-button"><a href="http://shop.eleenhalvorsen.com/" target="_blank">SHOP</a></li>
-                        <li className="page-button"><a href="/bio">BIO</a></li>
+                        <li className="page-button"><a href="http://shop-eleenhalvorsen.com/" target="_blank">SHOP</a></li>
+                        <li className="about-button">ABOUT 
+                            <div className="about-container">
+                                <ul className="about-container-ul">
+                                    <li className="go-button"><a href="/bio">BIO</a></li>
+                                    <li className="go-button"><a href="/process">PROCESS</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li className="page-button"><a href="/contact">CONTACT</a></li>
                     </ul>
                 </header>
                 <Route exact path="/" component={Home} />
                 <Route path="/bio" component={Bio} />
+                <Route path="/process" component={Process} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/lonely" component={Lonely} />
                 <Route path="/decomposed" component={Decomposed} />
