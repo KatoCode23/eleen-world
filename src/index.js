@@ -29,6 +29,7 @@ class App extends React.Component {
                         </span>
                     </a>
                     <ul>
+                    <li className="page-button"><a href="http://shop-eleenhalvorsen.com/" target="_blank">SHOP</a></li>
                         <li className="collection-button">COLLECTIONS
                         <div className="collection-container">
                             <ul className="collection-container-ul">
@@ -40,7 +41,6 @@ class App extends React.Component {
                             </ul>
                         </div>
                         </li>
-                        <li className="page-button"><a href="http://shop-eleenhalvorsen.com/" target="_blank">SHOP</a></li>
                         <li className="about-button">ABOUT 
                             <div className="about-container">
                                 <ul className="about-container-ul">

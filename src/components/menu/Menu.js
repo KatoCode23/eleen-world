@@ -57,8 +57,8 @@ export default class Menu extends React.Component {
                 <ul className="list">
                     <a href="http://shop-eleenhalvorsen.com/" target="_blank"><li className="category">SHOP</li></a>
                     <li className="category" onClick={this.collections}>COLLECTIONS</li>
-                    <a href="/contact"><li className="category">CONTACT</li></a>
                     <li className="about" onClick={this.bio}>ABOUT</li>
+                    <a href="/contact"><li className="category">CONTACT</li></a>
                 </ul>
             </div>;
 

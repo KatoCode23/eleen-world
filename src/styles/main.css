@@ -52,6 +52,7 @@ li{
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 5px;
+    z-index: 20;
 }
 
 .desktop-home-button{
@@ -67,6 +68,7 @@ li{
     width: 13%;
     height: 9%;
     margin-left: 5px;
+    z-index: 20;
 }
 
 .desktop-home-button a{
@@ -104,7 +106,7 @@ li{
     display: inline-block;
     padding: 5px;
     cursor: pointer;
-    min-width: 300px;
+    min-width: 150px;
       /* font-family: 'Julius Sans One', sans-serif;*/
    font-family: 'Open Sans', sans-serif;
    font-size: .7rem;
@@ -131,7 +133,7 @@ li{
 
 
 .link-button{
-    min-width: 300px;
+    min-width: 150px;
     padding: 3px;
     cursor: pointer;
     font-size: .6rem;

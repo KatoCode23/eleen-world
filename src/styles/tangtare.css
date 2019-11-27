@@ -15,6 +15,7 @@
     width: 100%;
     box-sizing: border-box;
     overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .copyRight{
@@ -60,7 +61,7 @@
 		(max-width: 768px) {
 
 .main_image-content{
-    width: 395px;
+    width: 388px;
 }            
 .new-image{
     height: 30vh;

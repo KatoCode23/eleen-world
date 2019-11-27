@@ -23,7 +23,7 @@ export default class Bio extends React.Component{
                          fusing garment making, leather work, objects and 
                          sculpture - wearable as well as pure “object of desire”. 
                          Her designs often deals with themes surrounding 
-                         the abstracted body and textures, fusing traditional 
+                         the abstracted body and textures, combining traditional 
                          garment construction with unconventional patternmaking, 
                          experimental fabric manipulations and unique silhouettes.    
                         </p>
