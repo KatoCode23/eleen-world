@@ -2,7 +2,6 @@
     margin: 0 auto;
     text-align: center;
     width: 700px;
-    padding: 10px;
 }
 
 .image-content{
@@ -46,11 +45,22 @@
     font-size: .7rem;
 }
 
+.tang_text-container {
+    position: relative;
+    display: block;
+    top: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lekton', sans-serif;
+    text-align: left;
+    width: 96%;
+}
+
 @media  (min-width: 0px) and
-		(max-width: 715px) {
+		(max-width: 768px) {
 
 .main_image-content{
-    width: 400px;
+    width: 395px;
 }            
 .new-image{
     height: 30vh;

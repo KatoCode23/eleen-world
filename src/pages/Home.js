@@ -3,9 +3,8 @@ import Menu from '../components/menu/Menu';
 
 export default class Home extends React.Component {
     render() {
-        const background1=require('../pics/COVER4.jpg');
-        const backgroundPhone=require('../pics/COVER3.jpg');
-        const logo=require('../pics/logo.jpg');
+        const background1=require('../pics/landing.jpg');
+        const backgroundPhone=require('../pics/landing.jpg');
         return  <div className="home-content">
             <Menu />
                 <a href="/tangtare">

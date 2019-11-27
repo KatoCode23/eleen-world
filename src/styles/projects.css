@@ -176,7 +176,7 @@
 }
 
 @media  (min-width: 0px) and
-		(max-width: 414px) {
+		(max-width: 768px) {
 
 .video{
     margin: 0 auto;

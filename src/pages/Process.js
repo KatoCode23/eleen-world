@@ -24,14 +24,14 @@ export default class Process extends React.Component{
                             <p className="bio-text">
                             <span className="font-weight">Our collections. </span>
                             Rather than coming up with new separate collections each season,
-                            we focus on creating a consistently unique brand identity, with
-                            strong, timeless garments that clients can build on for a long 
-                            time to come. We introduce new themes periodically, and 
+                            we focus on creating a consistent, unique brand identity, with emphasis on 
+                            timeless garments unmoved by the nature of trends.
+                            We introduce new themes periodically, and 
                             within each theme we launch our spring and autumn collections, 
                             as well as unique objects and art pieces.
                             </p>
                             <p className="bio-text">
-                            <span className="font-weight">Leather.</span> All of our leather products are made from bi-product 
+                            <span className="font-weight">Leather.</span> All of our leather products are made from by-product 
                             leather from the food industry, focusing mainly on vegetable tanned leather, 
                             which is the oldest and most intricate process of tanning leather, 
                             relying on natural vegetable tannings from tree bark or other plant sources. 
@@ -41,7 +41,7 @@ export default class Process extends React.Component{
                             individual developments. All objects are hand made-to-order from vegetable 
                             tanned leather. The in-house leather molding process is a slow and passionate 
                             process individually executed by hand over the span of a few days. 
-                            When ready, the piece is branded, hand dyed, polished and edge 
+                            When ready, the pieces are branded, hand dyed, polished and edge 
                             finished individually using only as much dye and finish needed, 
                             minimizing any unnecessary waste water. 
                             </p>

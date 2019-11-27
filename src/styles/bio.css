@@ -29,6 +29,7 @@ html, body {
 }
 
 .bio_text-container{
+    font-family: 'Lekton', sans-serif;
     text-align: left;
     width: 96%;
 }
@@ -76,7 +77,7 @@ html, body {
 
 
 @media  (min-width: 0px) and
-		(max-width: 414px) {
+		(max-width: 785px) {
 
 .bio-content{
     top: 30px;
